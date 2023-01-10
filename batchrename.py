@@ -1,6 +1,6 @@
 import argparse
 import os
-
+import datetime
 
 def batch_rename(work_dir, old_ext, new_ext):
     for filename in os.listdir(work_dir):
